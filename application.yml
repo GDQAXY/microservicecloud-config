@@ -2,21 +2,21 @@ spring:
   profiles:
     active:
       - dev
-=================================
+---
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-com-dev
+    name: microservicecloud-config-gn-dev
   http:
     encoding:
       charset: UTF-8
       enabled: true
       force: true
-=================================
+---
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-com-test
+    name: microservicecloud-config-gn-test
   http:
     encoding:
       charset: UTF-8
